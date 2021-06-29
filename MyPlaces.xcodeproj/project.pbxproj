@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		11CE68DF268AFC0D00A59DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */; };
 		11CE68E1268AFC0D00A59DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68E0268AFC0D00A59DD7 /* SceneDelegate.swift */; };
-		11CE68E3268AFC0D00A59DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68E2268AFC0D00A59DD7 /* ViewController.swift */; };
 		11CE68E6268AFC0D00A59DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE68E4268AFC0D00A59DD7 /* Main.storyboard */; };
 		11CE68E8268AFC0E00A59DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CE68E7268AFC0E00A59DD7 /* Assets.xcassets */; };
 		11CE68EB268AFC0E00A59DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE68E9268AFC0E00A59DD7 /* LaunchScreen.storyboard */; };
+		11CE68F3268AFEF900A59DD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68F2268AFEF900A59DD7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11CE68DB268AFC0D00A59DD7 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CE68E0268AFC0D00A59DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11CE68E2268AFC0D00A59DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11CE68E5268AFC0D00A59DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CE68E7268AFC0E00A59DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CE68EA268AFC0E00A59DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CE68EC268AFC0E00A59DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CE68F2268AFEF900A59DD7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */,
+				11CE68F2268AFEF900A59DD7 /* TableViewController.swift */,
 				11CE68E0268AFC0D00A59DD7 /* SceneDelegate.swift */,
-				11CE68E2268AFC0D00A59DD7 /* ViewController.swift */,
 				11CE68E4268AFC0D00A59DD7 /* Main.storyboard */,
 				11CE68E7268AFC0E00A59DD7 /* Assets.xcassets */,
 				11CE68E9268AFC0E00A59DD7 /* LaunchScreen.storyboard */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CE68E3268AFC0D00A59DD7 /* ViewController.swift in Sources */,
 				11CE68DF268AFC0D00A59DD7 /* AppDelegate.swift in Sources */,
+				11CE68F3268AFEF900A59DD7 /* TableViewController.swift in Sources */,
 				11CE68E1268AFC0D00A59DD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z987B24FTD;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z987B24FTD;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
