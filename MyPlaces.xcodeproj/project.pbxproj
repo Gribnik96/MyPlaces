@@ -13,6 +13,7 @@
 		11CE68E8268AFC0E00A59DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CE68E7268AFC0E00A59DD7 /* Assets.xcassets */; };
 		11CE68EB268AFC0E00A59DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE68E9268AFC0E00A59DD7 /* LaunchScreen.storyboard */; };
 		11CE68F3268AFEF900A59DD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68F2268AFEF900A59DD7 /* TableViewController.swift */; };
+		11CE68F7268B440700A59DD7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68F6268B440700A59DD7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		11CE68EA268AFC0E00A59DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CE68EC268AFC0E00A59DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CE68F2268AFEF900A59DD7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		11CE68F6268B440700A59DD7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */,
 				11CE68F2268AFEF900A59DD7 /* TableViewController.swift */,
+				11CE68F6268B440700A59DD7 /* CustomTableViewCell.swift */,
 				11CE68E0268AFC0D00A59DD7 /* SceneDelegate.swift */,
 				11CE68E4268AFC0D00A59DD7 /* Main.storyboard */,
 				11CE68E7268AFC0E00A59DD7 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				11CE68DF268AFC0D00A59DD7 /* AppDelegate.swift in Sources */,
 				11CE68F3268AFEF900A59DD7 /* TableViewController.swift in Sources */,
+				11CE68F7268B440700A59DD7 /* CustomTableViewCell.swift in Sources */,
 				11CE68E1268AFC0D00A59DD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
