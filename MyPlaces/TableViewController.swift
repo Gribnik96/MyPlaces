@@ -9,12 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    let restaurantNames = [
-        "Burger Heroes", "Kitchen", "Bonsai", "Дастархан",
-        "Индокитай", "X.O", "Балкан Гриль", "Sherlock Holmes",
-        "Speak Easy", "Morris Pub", "Вкусные истории",
-        "Классик", "Love&Life", "Шок", "Бочка"
-    ]
+  
     let places = Place.getPlaces()
     
     override func viewDidLoad() {
@@ -93,5 +88,6 @@ class TableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func cancelAction (_ segue: UIStoryboardSegue) {}
 
 }
