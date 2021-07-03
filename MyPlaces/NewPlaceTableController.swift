@@ -9,7 +9,7 @@ import UIKit
 
 class NewPlaceTableController: UITableViewController {
     
-    var newPlace: Place?
+   
     var imageIsChanged = false
     
     @IBOutlet var saveButton: UIBarButtonItem!
@@ -89,15 +89,18 @@ extension NewPlaceTableController: UITextFieldDelegate {
     
     func saveNewPlace() {
         
+       
+        
         var image: UIImage?
         if imageIsChanged {
             image = placeImage.image
         } else {
             image = #imageLiteral(resourceName: "imagePlaceholder")
         }
+        let imageData = image?.pngData()
         
-        
-        newPlace = Place(name: placeName.text!, location: placeLocation.text, type: placeType.text, image: image, restaurantImage: nil)
+        let newPlace = Place(name: placeName.text!, location: placeLocation.text, type: placeType.text, imageData: imageData)
+        StorageManager.saveObject(newPlace)
     }
     
     
