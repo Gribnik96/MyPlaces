@@ -74,6 +74,7 @@
                                     <outlet property="locationLabel" destination="JNR-dS-vtu" id="o4X-zm-Hbz"/>
                                     <outlet property="nameLabel" destination="3KA-lX-JXk" id="iMA-za-9t5"/>
                                     <outlet property="typeLabel" destination="UyB-sU-geA" id="v8D-UZ-PVv"/>
+                                    <segue destination="kJl-T5-eMm" kind="show" identifier="showDetail" id="5Yu-i2-0Aa"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -82,7 +83,7 @@
                             <outlet property="delegate" destination="W5E-hc-USY" id="xJp-mz-2uY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Places" id="hkf-au-SZ1">
+                    <navigationItem key="navigationItem" title="My Places" largeTitleDisplayMode="never" id="hkf-au-SZ1">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="G0Q-yG-7Zd">
                             <connections>
                                 <segue destination="Oah-7H-oQc" kind="popoverPresentation" popoverAnchorBarButtonItem="G0Q-yG-7Zd" id="EvL-Z0-iDh">
@@ -101,7 +102,7 @@
             <objects>
                 <tableViewController id="kJl-T5-eMm" customClass="NewPlaceTableController" customModule="MyPlaces" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bnS-cY-uPg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <inset key="separatorInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
@@ -268,15 +269,15 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sb-0S-9U5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Xc4-wW-EcA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3486.9565217391305" y="83.705357142857139"/>
+            <point key="canvasLocation" x="2625" y="84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="O9d-hY-gFZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ew5-PM-wTb" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BnA-YA-wua">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="BnA-YA-wua">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="26"/>
@@ -307,9 +308,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QhZ-Cw-POy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2576.811594202899" y="83.705357142857139"/>
+            <point key="canvasLocation" x="2625" y="-629"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="5Yu-i2-0Aa"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Photo" width="195" height="196"/>
         <systemColor name="systemBackgroundColor">
