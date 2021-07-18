@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		111446D92695A6300064518C /* RaatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111446D82695A6300064518C /* RaatingControl.swift */; };
+		1132F8B326A3FCBE00845181 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132F8B226A3FCBE00845181 /* MapViewController.swift */; };
 		11B1CE5E268E3C350094C326 /* NewPlaceTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1CE5D268E3C350094C326 /* NewPlaceTableController.swift */; };
 		11CE68DF268AFC0D00A59DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */; };
 		11CE68E1268AFC0D00A59DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE68E0268AFC0D00A59DD7 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		111446D82695A6300064518C /* RaatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaatingControl.swift; sourceTree = "<group>"; };
+		1132F8B226A3FCBE00845181 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		11B1CE5D268E3C350094C326 /* NewPlaceTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceTableController.swift; sourceTree = "<group>"; };
 		11CE68DB268AFC0D00A59DD7 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CE68DE268AFC0D00A59DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				11CE68F2268AFEF900A59DD7 /* TableViewController.swift */,
 				11B1CE5D268E3C350094C326 /* NewPlaceTableController.swift */,
 				11CE68F6268B440700A59DD7 /* CustomTableViewCell.swift */,
+				1132F8B226A3FCBE00845181 /* MapViewController.swift */,
 				11CE68F8268B762F00A59DD7 /* PlaceModel.swift */,
 				11E1A21B26907452002C0F01 /* StorageManager.swift */,
 				111446D82695A6300064518C /* RaatingControl.swift */,
@@ -224,6 +227,7 @@
 				11CE68F3268AFEF900A59DD7 /* TableViewController.swift in Sources */,
 				11CE68F9268B762F00A59DD7 /* PlaceModel.swift in Sources */,
 				11E1A21C26907452002C0F01 /* StorageManager.swift in Sources */,
+				1132F8B326A3FCBE00845181 /* MapViewController.swift in Sources */,
 				111446D92695A6300064518C /* RaatingControl.swift in Sources */,
 				11B1CE5E268E3C350094C326 /* NewPlaceTableController.swift in Sources */,
 				11CE68F7268B440700A59DD7 /* CustomTableViewCell.swift in Sources */,
